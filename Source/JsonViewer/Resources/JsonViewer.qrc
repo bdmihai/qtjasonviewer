@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Copy.png</file>
+        <file>Cut.png</file>
+        <file>FolderOpen.png</file>
+        <file>New.png</file>
+        <file>Paste.png</file>
+        <file>Save.png</file>
+        <file>SaveAs.png</file>
+        <file>BlueDot.png</file>
+        <file>TwoSquare.png</file>
+        <file>BlueSquare.png</file>
+        <file>JsonViewer.png</file>
+    </qresource>
+</RCC>

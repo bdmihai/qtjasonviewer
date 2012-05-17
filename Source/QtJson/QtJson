@@ -1,0 +1,6 @@
+#include "qtjson_global.h"
+#include "parser.h"
+#include "parserrunnable.h"
+#include "serializer.h"
+#include "serializerrunnable.h"
+#include "qobjecthelper.h"

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{86ACFE20-15D7-4587-A796-7FFD5DD2DB48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonViewer", "Source\JsonViewer\JsonViewer.vcproj", "{36C7FE01-8581-4F84-9F97-A0A2F1016E2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{3862A5B4-AAD9-42EB-A15F-5C2630F8A786}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\History.txt = Doc\History.txt
+		Doc\LICENSE.LGPL = Doc\LICENSE.LGPL
+		Doc\LICENSE.rtf = Doc\LICENSE.rtf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help", "Help", "{EFDEECDE-8F07-4603-8238-0D7E2D407BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{E19C05EF-2F77-4692-AA1D-3FAF8E58AC5D}"
+	ProjectSection(SolutionItems) = preProject
+		Setup\JsonViewer.iss = Setup\JsonViewer.iss
+		Setup\Setup.ico = Setup\Setup.ico
+		Setup\SmallImage.bmp = Setup\SmallImage.bmp
+		Setup\WizModernImage-IS.bmp = Setup\WizModernImage-IS.bmp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtJson", "Source\QtJson\QtJson.vcproj", "{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C7FE01-8581-4F84-9F97-A0A2F1016E2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36C7FE01-8581-4F84-9F97-A0A2F1016E2D}.Debug|Win32.Build.0 = Debug|Win32
+		{36C7FE01-8581-4F84-9F97-A0A2F1016E2D}.Release|Win32.ActiveCfg = Release|Win32
+		{36C7FE01-8581-4F84-9F97-A0A2F1016E2D}.Release|Win32.Build.0 = Release|Win32
+		{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2}.Debug|Win32.Build.0 = Debug|Win32
+		{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2}.Release|Win32.ActiveCfg = Release|Win32
+		{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36C7FE01-8581-4F84-9F97-A0A2F1016E2D} = {86ACFE20-15D7-4587-A796-7FFD5DD2DB48}
+		{A8A8E487-5D73-4956-B8D4-E8B1E85BD2E2} = {86ACFE20-15D7-4587-A796-7FFD5DD2DB48}
+	EndGlobalSection
+EndGlobal
